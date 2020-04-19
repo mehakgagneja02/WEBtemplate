@@ -1,0 +1,65 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:Showcard Gothic;
+}
+header{
+	background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(../motorcycles.jpg);
+	height:100vh;
+	background-size:cover;
+	background-position:center;
+}
+ul{
+	float:right;
+	list-style-type:none;
+	margin-top:25px;
+}
+ul li{
+	display:inline-block;
+}
+ul li a{
+	text-decoration:none;
+	color:white;
+	padding:10px 10px;
+	border:1px solid transparent;
+	transition:0.6s ease;
+}
+ul li a:hover{
+	background-color:white;
+	color:black;
+}
+.logo img{
+	float:left;
+	width:200px;
+	height:auto;
+}
+.main{
+	max-width:1200px;
+	margin:auto;
+}
+.title{
+	color:white;
+	position:absolute;
+	top:40%;
+	float:left;
+	font-size:30px;
+}
+.button{
+	position:absolute;
+	top:60%;
+	float:left;
+	font-size:30px;
+}
+.btn{
+	color:white;
+	border: 1px solid white;
+	padding:10px 20px;
+	text-decoration:none;
+	transition:0.6s ease;
+}
+.btn:hover{
+	background-color:white;
+	color:black;
+}
+}
+
